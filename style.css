@@ -1,0 +1,43 @@
+*{
+    margin: 8px;
+    padding: 8px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+h1{
+
+}
+body{
+    font-family: sans-serif;
+    font-size:15px;
+line-height: 1.5;}
+
+
+p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.div1{
+    border-top: solid red 1px;
+    border-left: solid red 1px;
+    border-bottom: solid red 1px;
+    border-right:solid red 1px;
+} 
+
+.div2{
+    border-left: solid blue 1px;
+}
+
+.div3{
+    border-bottom: solid green 1px;
+    border-top: solid green 1px;
+}
+
+.div4{
+    background-color: #ffdddd;
+    border-left: solid red 1px;
+}
